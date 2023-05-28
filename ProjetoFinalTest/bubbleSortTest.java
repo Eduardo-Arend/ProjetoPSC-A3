@@ -6,12 +6,11 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
-public class bubbleSort{
+public class bubbleSortTest{
     public static void main(String[] args) {
         File file = new File("/Users/eduardapaimdasilva/Documents/Ordenacao/testProjeto.txt");
         Scanner sc = null;
 
-        
 
 
         Date horaInicio = new Date();

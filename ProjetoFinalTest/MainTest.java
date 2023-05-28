@@ -12,7 +12,6 @@ import java.util.Scanner;
             File file = new File("/Users/eduardapaimdasilva/Documents/Ordenacao/testProjeto.txt");
             Scanner sc = null;
 
-            
 
 
             Date horaInicio = new Date();
