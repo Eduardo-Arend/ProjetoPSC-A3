@@ -1,20 +1,13 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
-package projetoFinal;
+package ProjetoFinalTest;
+
+import java.io.File;
+import java.io.IOException;
 import java.text.DateFormat;
 import java.text.SimpleDateFormat;
-import java.util.Arrays;
 import java.util.Date;
 import java.util.Scanner;
-import java.io.*;
-import java.io.IOException;
-
-
-public class Main {
+public class insertionSort{
     public static void main(String[] args) {
-        // TODO code application logic here
         
         File file = new File("/Users/eduardapaimdasilva/Documents/Ordenacao/testProjeto.txt");
         Scanner sc = null;
@@ -53,3 +46,4 @@ public class Main {
 
     }
  }
+    

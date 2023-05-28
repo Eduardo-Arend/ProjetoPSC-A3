@@ -9,8 +9,7 @@ import java.util.Scanner;
 
     public class MainTest {
         public static void main(String[] args) {
-            // TODO code application logic here
-            File file = new File("C:\\projeto Final\\Teste.txt");
+            File file = new File("/Users/eduardapaimdasilva/Documents/Ordenacao/testProjeto.txt");
             Scanner sc = null;
 
             
@@ -56,7 +55,7 @@ import java.util.Scanner;
             System.out.println("Date em String formatada: " + dataFormatadaFinal);
         }
 
-        private static String[] expandArray(String[] array) {
+        protected static String[] expandArray(String[] array) {
             int length = array.length;
             String[] newArray = new String[length + 1];
             System.arraycopy(array, 0, newArray, 0, length);
