@@ -8,7 +8,7 @@ import java.util.Scanner;
 
 public class bubbleSortTest{
     public static void main(String[] args) {
-        File file = new File("/Users/eduardapaimdasilva/Documents/Ordenacao/testProjeto.txt");
+        File file = new File("C:\\projeto Final\\Teste.txt");
         Scanner sc = null;
 
 
